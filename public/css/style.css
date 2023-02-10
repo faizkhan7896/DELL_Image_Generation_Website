@@ -6,10 +6,12 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background: #25282f;
 }
 
 :root {
-  --primary-color: #f9b64d;
+  --primary-color: #F96D41;
+  background: #25282f;
 }
 
 body {
@@ -36,8 +38,8 @@ body {
 }
 
 .navbar ul li {
-  margin-left: 1rem;
-}
+  margin-left: 1em;
+}r
 
 .navbar a {
   color: #fff;
@@ -58,7 +60,7 @@ body {
 
 .showcase h1 {
   font-size: 2.5rem;
-  color: #333;
+  color: #F96D41;
   text-align: center;
   padding: 1rem 0;
 }
@@ -70,6 +72,7 @@ body {
   flex-direction: column;
   height: 100%;
   width: 100%;
+  background-color: #25282f;
 }
 
 .showcase form input,
@@ -81,6 +84,7 @@ form select {
   border: 1px solid #ccc;
   border-radius: 5px;
   margin-bottom: 1rem;
+  background: #fff;
 }
 
 form button {
@@ -88,7 +92,7 @@ form button {
   padding: 1rem 2rem;
   border: none;
   border-radius: 5px;
-  background: #333;
+  background: #F96D41;
   color: #fff;
   cursor: pointer;
   margin-top: 20px;
@@ -114,4 +118,5 @@ img {
   font-size: 1.6rem;
   text-align: center;
   margin-top: 1rem;
+  /* background: #25282f; */
 }
