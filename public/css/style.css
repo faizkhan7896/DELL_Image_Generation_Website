@@ -8,6 +8,12 @@
   padding: 0;
   background: #25282f;
 }
+h2, *:end {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: #333;
+}
 
 :root {
   --primary-color: #F96D41;
